@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "canary": true
+    }
+  },
+  "npmClient": "yarn",
+  "version": "0.0.1",
+  "useWorkspaces": true
+}
