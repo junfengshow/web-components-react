@@ -37,6 +37,7 @@
     ]
   },
   "dependencies": {
+    "@babel/runtime": "^7.17.2",
     "@umijs/fabric": "^2.4.11",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",

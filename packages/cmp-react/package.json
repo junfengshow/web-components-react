@@ -1,13 +1,10 @@
 {
   "name": "@fdt/cmp-react",
   "version": "0.0.2",
-  "main": "lib/index.js",
-  "module": "lib/index.esm.js",
-  "typings": "lib/index.d.ts",
+  "main": "es/index.js",
+  "module": "es/index.js",
   "files": [
-    "lib",
-    "bin",
-    "templates"
+    "es"
   ],
   "repository": {
     "type": "git",
@@ -22,5 +19,8 @@
     "react",
     "react component"
   ],
-  "gitHead": "b28698e482b0ff1d7d2962684efcdbb6c097bee0"
+  "gitHead": "b28698e482b0ff1d7d2962684efcdbb6c097bee0",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }
