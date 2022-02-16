@@ -1,6 +1,7 @@
 export default {
+  // pkgs: ['cmp-react', 'cmp-utils'],
   target: 'browser',
-  disableTypeCheck: true,
+  // disableTypeCheck: true,
   // cjs: { type: 'babel', lazy: true },
   esm: {
     type: 'babel',
@@ -9,12 +10,12 @@ export default {
   extractCSS: true,
   lessInBabelMode: {},
   // runtimeHelpers: true,
-  extraBabelPlugins: [
-    [
-      '@babel/plugin-transform-runtime',
-      {
-        corejs: 3,
-      },
-    ],
-  ],
+  // extraBabelPlugins: [
+  //   [
+  //     '@babel/plugin-transform-runtime',
+  //     {
+  //       corejs: 3,
+  //     },
+  //   ],
+  // ],
 };

@@ -15,8 +15,9 @@
       "@@/*": ["src/.umi/*"],
       "@packages": ["packages/*"],
       "@fdt/cmp-react": ["packages/cmp-react/src/*"]
-    }
+    },
+    "skipLibCheck": true
   },
-  "include": ["./typings.d.ts", "packages/**/*.tsx", "packages/**/*.ts"],
-  "exclude": ["node_modules", "lib", "es", "dist", "typings"]
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "lib", "es", "dist", "typings", "docs"]
 }
