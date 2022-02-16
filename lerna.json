@@ -4,7 +4,7 @@
   ],
   "command": {
     "version": {
-      "exact": true
+      "exact": false
     },
     "publish": {
       "canary": false
