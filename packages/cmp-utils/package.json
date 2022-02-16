@@ -1,6 +1,6 @@
 {
   "name": "@fdt/cmp-utils",
-  "version": "0.0.2-alpha.2+d2c255e",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "typings": "lib/index.d.ts",
@@ -22,5 +22,5 @@
     "react",
     "react component"
   ],
-  "gitHead": "d2c255e2f662dbb61983472ef31b88227b10c464"
+  "gitHead": "b28698e482b0ff1d7d2962684efcdbb6c097bee0"
 }
