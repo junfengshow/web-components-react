@@ -2,7 +2,7 @@
   "name": "@fdt/cmp-utils",
   "version": "0.0.6",
   "main": "es/index.js",
-  "module": "es/index.js",
+  "module": "es/index.d.js",
   "files": [
     "es"
   ],
