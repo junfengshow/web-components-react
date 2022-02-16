@@ -7,7 +7,7 @@ export default {
     importLibToEs: true,
   },
   // extractCSS: true,
-  lessInBabelMode: {},
+  // lessInBabelMode: {},
   // runtimeHelpers: true,
   extraBabelPlugins: [
     [
