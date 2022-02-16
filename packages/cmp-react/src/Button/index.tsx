@@ -1,5 +1,5 @@
 import React, { MouseEventHandler } from 'react';
-import c from './index.less';
+import './index.less';
 
 export interface IButtonProps {
   children: React.ReactChild;
@@ -7,7 +7,7 @@ export interface IButtonProps {
 }
 const Button: React.FC<IButtonProps> = ({ children, onClick }) => {
   return (
-    <button onClick={onClick} className={c.cmpBtn}>
+    <button onClick={onClick} className='cmpBtn'>
       {children}
     </button>
   );

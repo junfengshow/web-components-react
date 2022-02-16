@@ -6,8 +6,8 @@ export default {
     type: 'babel',
     importLibToEs: true,
   },
-  // extractCSS: true,
-  // lessInBabelMode: {},
+  extractCSS: true,
+  lessInBabelMode: {},
   // runtimeHelpers: true,
   extraBabelPlugins: [
     [
