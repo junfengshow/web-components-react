@@ -5,7 +5,7 @@ hero:
   desc: jddkdk
   actions:
     - text: 进入笔记
-      link: /doc1
+      link: /cmp-react
 footer: © 2021-2023 All Rights Reserved Developed by [wujunfeng](https://www.junfengshow.com)
 ---
 

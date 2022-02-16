@@ -13,7 +13,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "@packages": ["packages/*"]
+      "@packages": ["packages/*"],
+      "@fdt/cmp-react": ["packages/cmp-react/src/*"]
     }
   },
   "include": ["./typings.d.ts", "packages/**/*.tsx", "packages/**/*.ts"],

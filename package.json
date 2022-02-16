@@ -3,7 +3,8 @@
   "name": "some-components",
   "version": "1.0.0",
   "scripts": {
-    "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
+    "lint": "eslint",
+    "fabric": "fabric",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
     "build": "father-build",
@@ -24,13 +25,16 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
     ],
     "*.ts?(x)": [
-      "prettier --parser=typescript --write"
+      "prettier --parser=typescript --write",
+      "eslint --fix"
     ]
   },
   "dependencies": {
