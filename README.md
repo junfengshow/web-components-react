@@ -1,5 +1,17 @@
 # some-components
 
+lerna + father-build + dumi 实现 react 组件库的搭建。
+
+## 使用
+
+```bash
+# build
+npm run build
+# 发布
+lerna publish
+# lerna 会根据所设置的version判断是否需要发布
+```
+
 一些组件
 
 ## 工具
